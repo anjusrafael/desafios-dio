@@ -7,3 +7,5 @@ Este repositório é dedicado ao desenvolvimento e compartilhamento dos desafios
 ### Estrutura do Repositório
 
 A estrutura em árvore do repositório segue a seguinte organização:
+
+![Tree de exemplo de diretórios](https://github.com/anjusrafael/desafios-dio/blob/main/tree.jpg)
