@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 50px 0 0 0;
+}
+
+form {
+    width: 50%;
+    max-width: 600px;
+    min-width: 318px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 10px 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pergunta {
+    width: 94%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 1%;
+    margin: 16px auto;
+}
+
+input {
+    margin: 10px 10px 10px 0;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+input[type="radio"] {
+    transform: scale(2.0);
+}
+
+h1, h3 {
+    margin: 20px auto;
+    width: 94%;
+}
+
+.respondida {
+    border-color: blue;
+    border-width: 2px;
+}
+
+#fixed-header {
+    width: 100%;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+#header {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    height: 30px;
+    max-width: 600px;
+    min-width: 318px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    position: relative;
+    z-index: 20;
+}
+
+#header p {
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 40;
+    position: relative;
+}
+
+#barra-loading {
+    width: 0;
+    background-color: aqua;
+    height: 30px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 30px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: chartreuse;
+    color: black;
+}
+
+#btn-radios {
+    display: none;
+}
+
+#resultado {
+    width: 50%;
+    max-width: 600px;
+    min-width: 318px;
+    margin: 0 auto;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+#resultado h1,
+#resultado h2,
+#resultado h3 {
+    margin: 20px auto;
+    width: 94%; 
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+#welcome {
+    width: 100%;
+    max-width: 600px;
+    min-width: 318px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.none {
+    display: none;
+}
+
+#jogo-iniciado {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+    min-width: 318px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+#jogo-iniciado p {
+    font-size: 18px;
+}
+
+#jogo-iniciado p span {
+    font-style: italic;
+}
+
+#jogo-iniciado img {
+    margin: 10px;
+}
