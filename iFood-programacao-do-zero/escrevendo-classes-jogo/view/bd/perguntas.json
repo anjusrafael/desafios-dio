@@ -1,0 +1,125 @@
+{
+    "perguntas": [
+        {
+            "pergunta": "O que é Git?",
+            "opcoes": [
+                {
+                    "A":"Um sistema de controle de versão",
+                    "B":"Um editor de texto",
+                    "C":"Um navegador da web"
+                }
+            ],
+            "respostaCorreta": "A"
+        },
+        {
+            "pergunta": "Como adicionar todas as alterações feitas no seu repositório local ao índice no Git?",
+            "opcoes": [
+                {
+                    "A":"git add all",
+                    "B":"git add .",
+                    "C":"git add \"all\""
+                }
+            ],
+            "respostaCorreta": "B"
+        },
+        {
+            "pergunta": "Como desfazer o último commit no Git?",
+            "opcoes": [
+                {
+                    "A":"git reset",
+                    "B":"git undo",
+                    "C":"git revert"
+                }
+            ],
+            "respostaCorreta": "A"
+        },
+        {
+            "pergunta": "O que é Node.js?",
+            "opcoes": [
+                {
+                    "A":"Um servidor web",
+                    "B":"Um sistema operacional",
+                    "C":"Um ambiente de execução JavaScript no lado do servidor"
+                }
+            ],
+            "respostaCorreta": "C"
+        },
+        {
+            "pergunta": "Qual comando é usado para iniciar um projeto Node.js?",
+            "opcoes": [
+                {
+                    "A":"node start",
+                    "B":"npm run",
+                    "C":"npm init"
+                }
+            ],
+            "respostaCorreta": "C"
+        },
+        {
+            "pergunta": "Como você pode ler um arquivo no Node.js?",
+            "opcoes": [
+                {
+                    "A":"fs.readFile",
+                    "B":"file.open",
+                    "C":"fs.read"
+                }
+            ],
+            "respostaCorreta": "A"
+        },
+        {
+            "pergunta": "Qual comando é usado para instalar o Express.js?",
+            "opcoes": [
+                {
+                    "A":"nod install express",
+                    "B":"npm install express",
+                    "C":"express install"
+                }
+            ],
+            "respostaCorreta": "B"
+        },
+        {
+            "pergunta": "O que é um array em JavaScript?",
+            "opcoes": [
+                {
+                    "A":"Uma coleção de códigos.",
+                    "B":"Uma coleção de elementos",
+                    "C":"Um tipo de dado."
+                }
+            ],
+            "respostaCorreta": "B"
+        },
+        {
+            "pergunta": "Como você escreve um comentário de uma linha em JavaScript?",
+            "opcoes": [
+                {
+                    "A":"// Isso é um comentário",
+                    "B":"/* Isso é um comentário */",
+                    "C":"/ Isso é um comentário"
+                }
+            ],
+            "respostaCorreta": "A"
+        },
+        {
+            "pergunta": "Qual é a função do comando `console.log` em JavaScript?",
+            "opcoes": [
+                {
+                    "A":"Exibir uma mensagem no console",
+                    "B":"Criar uma nova variável",
+                    "C":"Iniciar um loop"
+                }
+            ],
+            "respostaCorreta": "A"
+        },
+        {
+            "pergunta": "Como você adiciona um evento de clique a um elemento HTML usando JavaScript?",
+            "opcoes": [
+                {
+                    "A":"addEventListener(\"click\", minhaFuncao);",
+                    "B":"onclick = minhaFuncao;",
+                    "C":"attachClickEvent(minhaFuncao);"
+                }
+            ],
+            "respostaCorreta": "A"
+        }
+    ]
+}  

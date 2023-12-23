@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Classificador de Herói</title>
+</head>
+<body>
+    <div id="fixed-header">
+        <div id="header">
+            <div id="barra-loading"></div>
+            <p><span id="quant-respondida">0</span> / 11</p>
+        </div>
+    </div>
+    <form action="/processar-respostas" method="POST">
+        <h1 id="h1-init">Escreva o seu nome de Guerreiro</h1>
+        
+        <div id="pergunta-nome" class="pergunta">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+
+        <div id="welcome">
+            <h1>Bem vindo Guerreiro <span id="nome-guerreiro"></span></h1>
+            <h3>Tente vencer a batalha de perguntas.</h3>
+            <p>Cada vitória ganharás 10 pontos e terás um novo nível.</p>
+        </div>
+        
+        <div id="jogo-iniciado">
+            <p id="p-nome">Guerreiro <span id="nome-guerreiro-span"></span></p>
+            <img id="img-guerreiro" src="/imgs/guerreiro.jpeg"/>
+            <p id="msg"></p>
+        </div>
+
+        <button id="btn-text" type="button">Submeter</button>
+        
+        <button id="comecar" class="none" type="button">Começar</button>
+
+        <div id="perguntas"></div>
+ 
+        <button id="btn-radios" type="button">Responder</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
